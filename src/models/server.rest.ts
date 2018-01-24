@@ -22,7 +22,7 @@ export class RestServer {
     return server;
   }
 
-  private static init(app) {
+  private static init(app: express.Express) {
 
   }
 
